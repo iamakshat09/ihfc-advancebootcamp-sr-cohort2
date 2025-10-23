@@ -1,0 +1,12 @@
+.content{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-between;
+
+}
+
+.box{
+    margin:5px;
+}

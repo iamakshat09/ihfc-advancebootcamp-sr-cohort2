@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color:cadetblue
+}
+
+.header{
+    display: flex;
+    border:2px solid black;
+    background-color: bisque;
+    padding:5px;
+}
+
+.content{
+    background-color: bisque;
+    border:2px solid black;
+    padding:5px;
+}
+
+.fav{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.hobby{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+
+li{
+    background-color: lightgray;
+    margin:2px;
+    border:1px solid black;
+    list-style: none;
+}
+
+.website{
+    background-color: bisque;
+    border:2px solid black;
+    padding:5px;
+}
+
+.footer{
+    background-color: bisque;
+    border:2px solid black;
+    padding:5px;
+}
+
+@media(max-width:600px){
+    .header{
+        flex-direction: column;
+    }
+
+    .fav{
+        grid-template-columns: auto;
+    }
+
+    .hobby{
+        grid-template-columns: auto;
+    }
+}

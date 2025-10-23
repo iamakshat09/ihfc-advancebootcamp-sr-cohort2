@@ -1,0 +1,15 @@
+body{
+    background-color: lightsalmon;
+}
+
+@media (max-width:700px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        background-color: lightseagreen;
+    }
+}
