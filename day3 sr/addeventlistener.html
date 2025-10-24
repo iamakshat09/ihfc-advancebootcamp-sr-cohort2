@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="status">Car is stoped</div>
+    <br>
+    <button class="btn">Click to start</button>
+
+
+    <script>
+        const btn=document.querySelector(".btn")
+        const status=document.querySelector(".status")
+
+        btn.addEventListener("click",function(){
+            status.textContent="Car is started";
+            status.style.backgroundColor="yellow";
+        })
+    </script>
+</body>
+</html>
